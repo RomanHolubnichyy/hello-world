@@ -1,11 +1,83 @@
-<!doctype html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>hello world</title>
-	</head>
-	<body>
-		<H1>Hello HTML</H1>
-		<p>Hello From Gitpod</p>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Webside</title>
+	<script src="https://kit.fontawesome.com/5619db74ed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header class="header">
+		<nav class=header__contacts"></nav>
+		<a href="tel:12345678900">1-234-567-8900</a>
+		<div>
+			<a href="https://twitter.com">
+				<i class="fa-brands fa-twitter"></i>
+			</a>
+			<a href="https://instagram.com">
+				<i class="fa-brands fa-instagram"></i>
+			</a>
+			<a href="https://facebook.com">
+				<i class="fa-brands fa-facebook"></i>
+			</a>
+		</div>
+		<nav class="header__top-navigation" style="background-color: #2c3135">
+			<img class="header__top-navigation-logo" width="352" src="img/header/pinot_logo.jpg" alt="pinot_logo">
+			<div class="header__top-navigation-links">
+				<a class="link" href="О НАС.html">О НАС</a>
+				<a class="link" href="ГАЛЕРЕЯ.html">ГАЛЕРЕЯ</a>
+				<a class="link" href="РАСПРЕДЕЛЕНИЕ.html">РАСПРЕДЕЛЕНИЕ</a>
+				<a class="link" href="КОЛЛЕКЦИЯ.html">КОЛЛЕКЦИЯ</a>
+				<a class="link" href="ТЕСТИРОВАНИЕ.html">ТЕСТИРОВАНИЕ</a>
+				<a class="link" href="ВИННЫЙ КЛУБ.html">ВИННЫЙ КЛУБ</a>
+				<a class="link" href="СОБЫТИЯ.html">СОБЫТИЯ</a>
+				<a class="link" href="КОНТАКТЫ.html">КОНТАКТЫ</a>
+			</div>
+		</nav>
+		<div class="header__banner"></div>
+		<h1 class="header__banner-h1">Наслаждайтесь вкусом лета!</h1>
+		<a href="#collection" class="header__banner-link button">ПОСМОТРЕТЬ ВСЕ ВИНА</a>
+	</header>
+	<main>
+		<section class="wine-aboutus">
+			<h2>О НАС</h2>
+			<p class="wine_aboutus_1">
+				....
+			</p>
+			<p class="wine_aboutus_2">
+				Наша ремесленная винодельня, расположенная в Одессе, на юге Украины, стремится производить вкусные,
+				интересные, хорошо сбалансированные вина со сложными вкусами. Фрукты каждого урожая рассказывают историю
+				сезона. Мы стремимся поддерживать устойчиво выращиваемые виноградники с выразительным терруаром.
+			</p>
+			<a class="link button" href="О НАС.html">УЧИТЬ БОЛЬШЕ</a>
+		</section>
+		<section class="wine-collection">
+			<h2>Коллекция вин</h2>
+			<p class="wine-collection_1">
+				....
+			</p>
+			<div class="wine-collection_2">
+				<article class="wine-collection_product1">
+					<img class="wine-collection__image" src="img/header/cabernet_pinot_noir_l.jpg" alt="wine-collection">
+					<h3 class="wine-collection__h3">Кабарне Пино Нуар</h3>
+					<div class="wine-collection__prise">200 гривень</div>
+				</article>
+			</div>
+			<a class="link button" href="ГАЛЕРЕЯ.html">УЧИТЬ БОЛЬШЕ</a>
+		</section>
+	</main>
+	<footer>
+		<div class="footer__contacts"></div>
+		<h2 class="footer__contacts-h2"></h2>
+		<form action="https://formspree.io/f/xayvapgr" method="POST">
+			<input name="name" type="text" placeholder="Имя*" required>
+			<input name="phone" type="tel" placeholder="телефонный номер*" required>
+			<input name="email" type="email" placeholder="Эл.адресс*" required>
+			<input type="submit" placeholder="Вопросы*" required>
+		</form>
+	</footer>
+</body>
+
 </html>
