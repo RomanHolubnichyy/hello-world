@@ -3,16 +3,19 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" http-equiv="X-UA-Compatible" content="IE=edge, width=device-width, initial-scale=1.0width=device-width, initial-scale=1.0">
-	<meta id="gitpod-ide-capabilities">
-	<title>Webside</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/index.css"
+	<link rel="icon" href="img/header/icon.png">
 	<script src="https://kit.fontawesome.com/5619db74ed.js" crossorigin="anonymous"></script>
+	<title>WineCollection</title>
 </head>
 <body>
 	<header class="header">
 		<nav class=header__contacts"></nav>
 		<a href="tel:12345678900">1-234-567-8900</a>
 		<div>
+			<!-- Соц.сети -->
 			<a href="https://twitter.com">
 				<i class="fa-brands fa-twitter"></i>
 			</a>
@@ -26,6 +29,7 @@
 		<nav class="header__top-navigation" style="background-color: #2c3135">
 			<img class="header__top-navigation-logo" width="352" src="img/header/pinot_logo.jpg" alt="pinot_logo">
 			<div class="header__top-navigation-links">
+				<!-- Перечень закладок -->
 				<a class="link" href="О НАС.html">О НАС</a>
 				<a class="link" href="ГАЛЕРЕЯ.html">ГАЛЕРЕЯ</a>
 				<a class="link" href="РАСПРЕДЕЛЕНИЕ.html">РАСПРЕДЕЛЕНИЕ</a>
@@ -37,59 +41,90 @@
 			</div>
 		</nav>
 		<div class="header__banner"></div>
-		<h1 class="header__banner-h1">Наслаждайтесь вкусом лета!</h1>
+		<h1 class="header__banner-h1">Наслаждайтесь </h1>
 		<a href="#collection" class="header__banner-link button">ПОСМОТРЕТЬ ВСЕ ВИНА</a>
 	</header>
 	<main>
 		<section class="wine-aboutus">
 			<h2>О НАС</h2>
-			<p class="wine_aboutus_1">
+			<p class="wine_aboutus_header">
 				....
 			</p>
-			<p class="wine_aboutus_2">
+			<p class="wine_aboutus_text">
 				Наша ремесленная винодельня, расположенная в Одессе, на юге Украины, стремится производить вкусные,
 				интересные, хорошо сбалансированные вина со сложными вкусами. Фрукты каждого урожая рассказывают историю
 				сезона. Мы стремимся поддерживать устойчиво выращиваемые виноградники с выразительным терруаром.
 			</p>
-			<a class="link button" href="О НАС.html">УЧИТЬ БОЛЬШЕ</a>
+			<a class="link button" href="О НАС.html">УЗНАТЬ БОЛЬШЕ</a>
 		</section>
 		<section class="wine-collection">
 			<h2>Коллекция вин</h2>
-			<p class="wine-collection_1">
+			<!-- Винная коллекция -->
+			<p class="wine-collection_points">
 				....
 			</p>
-			<div class="wine-collection_2">
-				<article class="wine-collection_product1">
+			<div class="wine-collection_production">
+				<article class="wine-collection_product">
 					<img class="wine-collection__image" src="img/header/cabernet_pinot_noir_l.jpg" alt="wine-collection">
 					<h3 class="wine-collection__h3">Кабарне Пино Нуар</h3>
 					<div class="wine-collection__prise">200 гривень</div>
 				</article>
 			</div>
-			<a class="link button" href="ГАЛЕРЕЯ.html">БОЛЬШЕ</a>
+			<a class="link button" href="КОЛЛЕКЦИЯ.html">УЗНАТЬ БОЛЬШЕ</a>
 			<div class="wine-collection_2">
-				<article class="wine-collection_product1">
-					<img class="wine-collection__image" src="img/header/chardonnay sauvisnon.jpg" alt="wine-collection">
+				<article class="wine-collection_product">
+					<img class="wine-collection__image" src="img/header/chardonnay_sauvisnon.jpg" alt="wine-collection">
 					<h3 class="wine-collection__h3">Шардоне-Совиньон</h3>
 					<div class="wine-collection__prise">220 гривень</div>
 				</article>
 			</div>
-			<a class="link button" href="ГАЛЕРЕЯ.html">БОЛЬШЕ</a>
+			<a class="link button" href="КОЛЛЕКЦИЯ.html">УЗНАТЬ БОЛЬШЕ</a>
 			<div class="wine-collection_2">
-				<article class="wine-collection_product1">
+				<article class="wine-collection_product">
 					<img class="wine-collection__image" src="img/header/muscat_traminer.jpg" alt="wine-collection">
 					<h3 class="wine-collection__h3">Мускат Траминер</h3>
 					<div class="wine-collection__prise">180 гривень</div>
 				</article>
 			</div>
-			<a class="link button" href="ГАЛЕРЕЯ.html">БОЛЬШЕ</a>
+			<a class="link button" href="КОЛЛЕКЦИЯ.html">УЗНАТЬ БОЛЬШЕ</a>
 			<div class="wine-collection_2">
-				<article class="wine-collection_product1">
+				<article class="wine-collection_product">
 					<img class="wine-collection__image" src="img/header/pinot_noir_merlot.jpg" alt="wine-collection">
 					<h3 class="wine-collection__h3">Пино Нуар-Мерло</h3>
-					<div class="wine-collection__prise">210 гривень</div>
+					<div class="wine-collection__prise">180 гривень</div>
 				</article>
 			</div>
-			<a class="link button" href="ГАЛЕРЕЯ.html">БОЛЬШЕ</a>
+			<a class="link button" href="КОЛЛЕКЦИЯ.html">УЗНАТЬ БОЛЬШЕ</a>
+		</section>
+		<section class="wine-reviews">
+			<h2>ОТЗЫВЫ</h2>
+			<p class="wine_reviews_header">
+				....
+			</p>
+			<div class="wine_reviews_boyan">
+				<article class="wine_reviews_text_boyan">
+					<img class="wine_reviews_foto" src="img/header/boyan.jpg" alt="reviews boyan">
+					<h3 class="wine_reviews_text">Я так рад открытию винодельни. У них потрясающая коллекция авторских вин. Мы прекрасно провели время и обязательно скоро вернемся».</h3>
+					<h2 class="wine_reviews_name">Боян Борисов</h2>
+				</article>
+			</div>
+			<a class="link button" href="ТЕСТИРОВАНИЕ.html">УЗНАТЬ БОЛЬШЕ</a>
+			<div class="wine_reviews_keyt">
+				<article class="wine_reviews_text_keyt">
+					<img class="wine_reviews_foto" src="img/header/keyt.jpg" alt="reviews keyt">
+					<h3 class="wine_reviews_text">«Мы просто хотим сказать спасибо за незабываемые впечатления, ваше дружелюбие и гостеприимство во время нашего винного тура и дегустации вин! Ферма живописна, вино превосходно! Еще раз спасибо!»</h3>
+					<h2 class="wine_reviews_name">Кейт Холмс</h2>
+				</article>
+			</div>
+			<a class="link button" href="ТЕСТИРОВАНИЕ.html">УЗНАТЬ БОЛЬШЕ</a>
+			<div class="wine_reviews_keyt">
+				<article class="wine_reviews_text_jeff">
+					<img class="wine_reviews_foto" src="img/header/jeff_gordon.jpg" alt="reviews jeff">
+					<h3 class="wine-collection__text_jeff">"Без сомнения, вино потрясающее! Хотел бы я купить его 10 бутылок! Замечательное место, замечательные люди, прекрасное вино, замечательная цена!"</h3>
+					<h2 class="wine_reviews_name">Джефф Ватсон</h2>
+				</article>
+			</div>
+			<a class="link button" href="ТЕСТИРОВАНИЕ.html">УЗНАТЬ БОЛЬШЕ</a>
 		</section>
 	</main>
 	<footer>
